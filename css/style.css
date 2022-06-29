@@ -36,13 +36,12 @@ body {
   .footer:hover {
     background-color: #cfd9df; }
 
-.nosotros h1 {
-  text-align: center;
-  margin-top: 50px; }
+.main__h1 {
+  text-align: center; }
 
-.nosotros p {
+.main__p {
   text-align: center;
-  margin: 60px; }
+  margin: 50px; }
 
 .encontranos {
   text-align: center;

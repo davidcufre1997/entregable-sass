@@ -1,4 +1,7 @@
+@import './variables/colores';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
 
 body{
         background-image: linear-gradient(45deg, #cfd9df 0%, #e2ebf0 100%);
@@ -39,19 +42,20 @@ body{
 .footer{
     margin-top: 200px;
     &:hover{
-        background-color: #cfd9df;
+        background-color: $colorfondo;
     }
 }
-.nosotros{
-    h1{
+.main{
+    &__h1{
         text-align: center;
-        margin-top: 50px;
     }
-    p{
+    &__p{
         text-align: center;
-        margin: 60px;
+        margin: 50px;
     }
+
 }
+
 .encontranos{
     text-align: center;
     margin-top: 50px;
